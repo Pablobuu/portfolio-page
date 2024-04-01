@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  font-size: 15px;
+  /* border: 1px solid red; */
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  transition: all 0.5s;
+  padding: 15px;
+}
+
+#filtros li {
+  display: inline-block;
+  list-style: none;
+}
+section {
+  min-height: 100vh;
+}
+
+#nav-items i {
+  color: gray;
+  padding: 5vh 1vh 1vh 1vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@media (max-width: 576px) {
+  #boton-menu {
+    position: absolute;
+    top: 5vw;
+    left: 2vw;
+  }
+}
