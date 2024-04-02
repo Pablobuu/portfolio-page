@@ -1,7 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
   /* border: 1px solid red; */
+}
+
+@media (max-width: 576px) {
+  #boton-menu {
+    position: absolute;
+    top: 5vw;
+    left: 2vw;
+  }
 }
 
 #header {
@@ -33,10 +44,11 @@ section {
   align-items: center;
   height: 100vh;
 }
-@media (max-width: 576px) {
-  #boton-menu {
-    position: absolute;
-    top: 5vw;
-    left: 2vw;
-  }
+
+a {
+  color: gray;
+}
+
+.col-3 li {
+  list-style: none;
 }
